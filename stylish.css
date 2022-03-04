@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#layout-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    flex-basis: 7.5%;
+}
+
+#footer {
+    background-color: aqua ;
+    flex-basis: 7.5%;
+}
+
+#mid-section {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 85%;
+}
+
+#content {
+    background-color: darkorchid;
+    flex-basis: 95%;
+}
+
+.side-panel {
+    background-color: black;
+    flex-basis: 2.5%;
+}
