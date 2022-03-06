@@ -66,3 +66,9 @@ button {
 #timeline {
     height: 100%;
 }
+#motivatoin {
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 3%;
+}
