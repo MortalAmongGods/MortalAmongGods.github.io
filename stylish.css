@@ -37,7 +37,7 @@ button {
     background-color: black;
     flex-basis: 3.5%;
 }
-.center-text {
+.containers {
     text-align: center;
 }
 .content-main {
@@ -62,4 +62,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;   
+}
+#timeline {
+    height: 100%;
 }
