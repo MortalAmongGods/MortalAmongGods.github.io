@@ -52,3 +52,14 @@ button {
     box-shadow: 1.5rem 1.5rem 1.5rem darkcyan;
     border-radius: .5rem;
 }
+#Kyle-Skye {
+    align-items: center;
+    width: 80%;
+    height: 47%;
+    margin-left: 10%;
+}
+#sk {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;   
+}
