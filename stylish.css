@@ -6,7 +6,8 @@ body {
 button {
     background-color: yellowgreen;
     color: black;
-    width: 7.5%;  
+    width: 7.5%;
+    height: 85%;      
 }
 .layout-container {
     display: flex;
@@ -20,10 +21,7 @@ button {
     flex-direction: row;
     justify-content: space-around;
     flex-basis: 7.5%;
-}
-.footer {
-    background-color: aqua ;
-    flex-basis: 7.5%;
+    align-items: center;
 }
 .mid-section {
     background-color: aliceblue;
@@ -32,7 +30,7 @@ button {
     flex-basis: 85%;
 }
 .content {
-    background-color: darkorchid;
+    background-color: lightcoral;
     flex-basis: 93%;
 }
 .side-panel {
@@ -48,7 +46,7 @@ button {
     justify-content: space-evenly; 
 }
 .content-box {
-    background-color: azure;
+    background-color: darkorchid;
     width: 17rem;
     height: 28rem;
     box-shadow: 1.5rem 1.5rem 1.5rem darkcyan;
