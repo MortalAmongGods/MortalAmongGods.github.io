@@ -52,14 +52,14 @@ button {
     box-shadow: 1.5rem 1.5rem 1.5rem darkcyan;
     border-radius: .5rem;
 }
-#Kyle-Skye {
+.left-photos {
     align-items: center;
-    width: 80%;
-    height: 47%;
-    margin-left: 10%;
+    width: 63%;
+    /* height: 50%; */
+    margin-bottom: 3%;
 }
 #sk {
     display: flex;
     flex-direction: column;
-    justify-items: center;   
+    align-items: center;   
 }
