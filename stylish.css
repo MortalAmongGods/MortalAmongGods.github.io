@@ -39,16 +39,18 @@ button {
     background-color: black;
     flex-basis: 3.5%;
 }
-.content-header {
+.center-text {
     text-align: center;
 }
 .content-main {
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-evenly; 
 }
 .content-box {
     background-color: azure;
-    height: 4rem;
-    width: 4rem;
+    width: 17rem;
+    height: 28rem;
+    box-shadow: 1.5rem 1.5rem 1.5rem darkcyan;
+    border-radius: .5rem;
 }
