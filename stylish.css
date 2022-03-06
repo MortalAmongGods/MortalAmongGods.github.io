@@ -12,9 +12,10 @@ body {
 }
 
 #header {
-    display: flex;
-    flex-direction: column;
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     flex-basis: 7.5%;
 }
 
@@ -32,10 +33,17 @@ body {
 
 #content {
     background-color: darkorchid;
-    flex-basis: 95%;
+    flex-basis: 93%;
 }
 
 .side-panel {
     background-color: black;
-    flex-basis: 2.5%;
+    flex-basis: 3.5%;
+}
+
+.button {
+    background-color: yellowgreen;
+    color: black;
+    width: 7.5%;
+    
 }
