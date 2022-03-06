@@ -3,47 +3,52 @@ body {
     border: 0;
     padding: 0;
 }
-
-#layout-container {
+button {
+    background-color: yellowgreen;
+    color: black;
+    width: 7.5%;  
+}
+.layout-container {
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
-
-#header {
+.header {
     background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-basis: 7.5%;
 }
-
-#footer {
+.footer {
     background-color: aqua ;
     flex-basis: 7.5%;
 }
-
-#mid-section {
+.mid-section {
     background-color: aliceblue;
     display: flex;
     flex-direction: row;
     flex-basis: 85%;
 }
-
-#content {
+.content {
     background-color: darkorchid;
     flex-basis: 93%;
 }
-
 .side-panel {
     background-color: black;
     flex-basis: 3.5%;
 }
-
-.button {
-    background-color: yellowgreen;
-    color: black;
-    width: 7.5%;
+.content-header {
+    text-align: center;
+}
+.content-main {
+    display: flex;
+    flex-direction: row;
     
+}
+.content-box {
+    background-color: azure;
+    height: 4rem;
+    width: 4rem;
 }
