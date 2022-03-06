@@ -15,7 +15,7 @@ button {
     width: 100vw;
     height: 100vh;
 }
-.header {
+.header-footer {
     background-color: aqua;
     display: flex;
     flex-direction: row;
