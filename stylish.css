@@ -34,6 +34,12 @@ body {
 #content {
     background-color: darkorchid;
     flex-basis: 93%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-header {
+    
 }
 
 .side-panel {
@@ -45,5 +51,4 @@ body {
     background-color: yellowgreen;
     color: black;
     width: 7.5%;
-    
 }
