@@ -61,11 +61,18 @@ button {
     /* height: 50%; */
     margin-bottom: 3%;
 }
-#sk {
+.sk {
     display: flex;
     flex-direction: column;
     align-items: center;   
 }
-#timeline {
+.aboutme {
     height: 100%;
+    text-align: justify;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#hobbielist {
+    padding: 0.25rem;
+    list-style-type: none ;
 }
