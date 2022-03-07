@@ -9,6 +9,9 @@ button {
     width: 7rem;
     height: 85%;      
 }
+a {
+    color: black;
+}
 .layout-container {
     display: flex;
     flex-direction: column;
@@ -47,18 +50,18 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; 
+    height: 90%;
 }
 .content-box {
     background-color: darkorchid;
-    width: 17rem;
-    height: 28rem;
+    width: 30%;
+    height: 90%;
     box-shadow: 1.5rem 1.5rem 1.5rem rgb(42, 80, 80);
     border-radius: .5rem;
 }
-.left-photos {
+.pictures {
     align-items: center;
     width: 63%;
-    /* height: 50%; */
     margin-bottom: 3%;
 }
 .sk {
