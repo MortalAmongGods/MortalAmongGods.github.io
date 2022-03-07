@@ -4,9 +4,9 @@ body {
     padding: 0;
 }
 button {
-    background-color: yellowgreen;
+    background-color: rgb(175, 74, 34);
     color: black;
-    width: 7.5%;
+    width: 7rem;
     height: 85%;      
 }
 .layout-container {
@@ -16,7 +16,7 @@ button {
     height: 100vh;
 }
 .header-footer {
-    background-color: aqua;
+    background-color: rgb(91, 197, 230);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -24,26 +24,23 @@ button {
     align-items: center;
 }
 .mid-section {
-    background-color: aliceblue;
     display: flex;
     flex-direction: row;
     flex-basis: 85%;
 }
 .content {
-    background-color: lightcoral;
+    background-color: rgb(219, 174, 217);
     flex-basis: 93%;
     display: flex;
     flex-direction: column;
 }
-
-#main-header {
-    
-}
 .side-panel {
-    background-color: black;
+    background-color: rgb(219, 174, 217);
     flex-basis: 3.5%;
 }
 .containers {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 .content-main {
@@ -71,10 +68,4 @@ button {
 }
 #timeline {
     height: 100%;
-}
-.motivatoin {
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    margin-bottom: 3%;
 }
