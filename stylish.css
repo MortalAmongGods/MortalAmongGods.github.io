@@ -3,36 +3,34 @@ body {
     border: 0;
     padding: 0;
 }
-
-#layout-container {
+button {
+    background-color: yellowgreen;
+    color: black;
+    width: 7.5%;
+    height: 85%;      
+}
+.layout-container {
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
-
-#header {
+.header-footer {
     background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-basis: 7.5%;
+    align-items: center;
 }
-
-#footer {
-    background-color: aqua ;
-    flex-basis: 7.5%;
-}
-
-#mid-section {
+.mid-section {
     background-color: aliceblue;
     display: flex;
     flex-direction: row;
     flex-basis: 85%;
 }
-
-#content {
-    background-color: darkorchid;
+.content {
+    background-color: lightcoral;
     flex-basis: 93%;
     display: flex;
     flex-direction: column;
@@ -41,14 +39,50 @@ body {
 #main-header {
     
 }
-
 .side-panel {
     background-color: black;
     flex-basis: 3.5%;
 }
+<<<<<<< HEAD
 
 .button {
     background-color: yellowgreen;
     color: black;
     width: 7.5%;
+=======
+.containers {
+    text-align: center;
+}
+.content-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+.content-box {
+    background-color: darkorchid;
+    width: 17rem;
+    height: 28rem;
+    box-shadow: 1.5rem 1.5rem 1.5rem darkcyan;
+    border-radius: .5rem;
+}
+.left-photos {
+    align-items: center;
+    width: 63%;
+    /* height: 50%; */
+    margin-bottom: 3%;
+}
+#sk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+#timeline {
+    height: 100%;
+}
+.motivatoin {
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 3%;
+>>>>>>> baa11a43dfe614847cd94ba415682266038b4bd4
 }
